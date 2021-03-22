@@ -1,7 +1,7 @@
 import LoginPage from  '../pageobjects/login.page';
 import ProfilePage from  '../pageobjects/profile.page';
 
-describe('Auth', () => {
+describe('================================== LOGIN PAGE ==================================', () => {
     beforeEach( () => {
         LoginPage.open();
         browser.execute('window.localStorage.clear()');
