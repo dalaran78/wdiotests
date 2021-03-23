@@ -1,10 +1,8 @@
 import Page from './page';
 
 class LoginPage extends Page {
-    get inputUsername () { return $('#normal_login_email'); }
-    get clearUsername () { return $('#normal_login_email'); }
-    get inputPassword () { return $('#normal_login_password'); }
-    get clearPassword () { return $('#normal_login_password'); }
+    get Username () { return $('#normal_login_email'); }
+    get Password () { return $('#normal_login_password'); }
     get btnSubmit () { return $('.login-form-button'); }
     get errorToast () { return $('.ant-notification-notice-message'); }
     get alertMessage () { return $('.ant-form-item-explain-error')}
@@ -15,11 +13,11 @@ class LoginPage extends Page {
     }
 
     setLogin  (email) {
-        this.inputUsername.setValue(email);
+        this.Username.setValue(email);
     }
 
     setPassword(password) {
-        this.inputPassword.setValue(password);
+        this.Password.setValue(password);
     }
 
     clickSubmitButton() {
@@ -35,11 +33,11 @@ class LoginPage extends Page {
     }
 
     loginClear() {
-        this.clearUsername.clearValue();
+        this.Username.clearValue();
     }
 
     passClear() {
-        this.clearPassword.clearValue();
+        this.Password.clearValue();
     }
 
     alert() {
