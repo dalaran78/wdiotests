@@ -1,0 +1,75 @@
+{
+  "uid" : "11ab5c4a7f5e8d08",
+  "name" : "login input is required",
+  "fullName" : "Auth.login input is required",
+  "historyId" : "75997360dfbe67862d8b8aca3a4f5eed",
+  "time" : {
+    "start" : 1619274388579,
+    "stop" : 1619274389431,
+    "duration" : 852
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Auth"
+  }, {
+    "name" : "testClass",
+    "value" : "Auth"
+  }, {
+    "name" : "testMethod",
+    "value" : "login input is required"
+  }, {
+    "name" : "package",
+    "value" : "Auth"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-88.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d862cd8732a4105e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619236463980,
+        "stop" : 1619236464826,
+        "duration" : 846
+      }
+    }, {
+      "uid" : "e597867729bd353c",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Required\"\n                Received: \"\"",
+      "time" : {
+        "start" : 1619235881990,
+        "stop" : 1619235882848,
+        "duration" : 858
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "11ab5c4a7f5e8d08.json",
+  "parameterValues" : [ "firefox-88.0" ]
+}

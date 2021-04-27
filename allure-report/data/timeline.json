@@ -1,0 +1,217 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "0-0",
+    "children" : [ {
+      "name" : "login input is required",
+      "uid" : "83b507975a3a2972",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619234864192,
+        "stop" : 1619234865163,
+        "duration" : 971
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-90.0.4430.85" ]
+    }, {
+      "name" : "submit button is disabled if login and password are absent",
+      "uid" : "379371286746e5df",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619234861345,
+        "stop" : 1619234862562,
+        "duration" : 1217
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-90.0.4430.85" ]
+    }, {
+      "name" : "fails if invalid data provided",
+      "uid" : "7c89eeabd657b21",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619236462469,
+        "stop" : 1619236463980,
+        "duration" : 1511
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-88.0" ]
+    }, {
+      "name" : "login input is required",
+      "uid" : "d862cd8732a4105e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619236463980,
+        "stop" : 1619236464826,
+        "duration" : 846
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-88.0" ]
+    }, {
+      "name" : "fails if invalid data provided",
+      "uid" : "977c1583790c672d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619274387034,
+        "stop" : 1619274388579,
+        "duration" : 1545
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-88.0" ]
+    }, {
+      "name" : "login input is required",
+      "uid" : "11ab5c4a7f5e8d08",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619274388579,
+        "stop" : 1619274389431,
+        "duration" : 852
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-88.0" ]
+    }, {
+      "name" : "user logs in with valid data",
+      "uid" : "f8815039e2e9289",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1619274373918,
+        "stop" : 1619274386361,
+        "duration" : 12443
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-88.0" ]
+    }, {
+      "name" : "user logs in with valid data",
+      "uid" : "d9b0b6d7441bccfb",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619235876816,
+        "stop" : 1619235879914,
+        "duration" : 3098
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-88.0" ]
+    }, {
+      "name" : "fails if invalid data provided",
+      "uid" : "5974c945f8a8454a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619235880497,
+        "stop" : 1619235881990,
+        "duration" : 1493
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-88.0" ]
+    }, {
+      "name" : "login input is required",
+      "uid" : "e597867729bd353c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1619235881990,
+        "stop" : 1619235882848,
+        "duration" : 858
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-88.0" ]
+    }, {
+      "name" : "user logs in with valid data",
+      "uid" : "54ca12534a3358a9",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619236458601,
+        "stop" : 1619236461747,
+        "duration" : 3146
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-88.0" ]
+    }, {
+      "name" : "submit button is disabled if login and password are absent",
+      "uid" : "dd953c30d117e69a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619274386361,
+        "stop" : 1619274387034,
+        "duration" : 673
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-88.0" ]
+    }, {
+      "name" : "user logs in with valid data",
+      "uid" : "916e1efc0cb947cd",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619234851933,
+        "stop" : 1619234861345,
+        "duration" : 9412
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-90.0.4430.85" ]
+    }, {
+      "name" : "submit button is disabled if login and password are absent",
+      "uid" : "e8fafb2c4ecb53c0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619235879914,
+        "stop" : 1619235880497,
+        "duration" : 583
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-88.0" ]
+    }, {
+      "name" : "submit button is disabled if login and password are absent",
+      "uid" : "62146a554905cb63",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619236461748,
+        "stop" : 1619236462469,
+        "duration" : 721
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-88.0" ]
+    }, {
+      "name" : "fails if invalid data provided",
+      "uid" : "b97f6f2e06e65d17",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619234862562,
+        "stop" : 1619234864192,
+        "duration" : 1630
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-90.0.4430.85" ]
+    } ],
+    "uid" : "516fe00eea05ad99e936fa729b55eff4"
+  } ],
+  "name" : "timeline"
+}

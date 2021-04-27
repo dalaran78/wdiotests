@@ -1,0 +1,81 @@
+[ {
+  "uid" : "dd953c30d117e69a",
+  "name" : "submit button is disabled if login and password are absent",
+  "time" : {
+    "start" : 1619274386361,
+    "stop" : 1619274387034,
+    "duration" : 673
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "11ab5c4a7f5e8d08",
+  "name" : "login input is required",
+  "time" : {
+    "start" : 1619274388579,
+    "stop" : 1619274389431,
+    "duration" : 852
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "916e1efc0cb947cd",
+  "name" : "user logs in with valid data",
+  "time" : {
+    "start" : 1619234851933,
+    "stop" : 1619234861345,
+    "duration" : 9412
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "379371286746e5df",
+  "name" : "submit button is disabled if login and password are absent",
+  "time" : {
+    "start" : 1619234861345,
+    "stop" : 1619234862562,
+    "duration" : 1217
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "977c1583790c672d",
+  "name" : "fails if invalid data provided",
+  "time" : {
+    "start" : 1619274387034,
+    "stop" : 1619274388579,
+    "duration" : 1545
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b97f6f2e06e65d17",
+  "name" : "fails if invalid data provided",
+  "time" : {
+    "start" : 1619234862562,
+    "stop" : 1619234864192,
+    "duration" : 1630
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f8815039e2e9289",
+  "name" : "user logs in with valid data",
+  "time" : {
+    "start" : 1619274373918,
+    "stop" : 1619274386361,
+    "duration" : 12443
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "83b507975a3a2972",
+  "name" : "login input is required",
+  "time" : {
+    "start" : 1619234864192,
+    "stop" : 1619234865163,
+    "duration" : 971
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

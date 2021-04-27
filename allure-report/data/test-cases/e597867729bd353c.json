@@ -1,0 +1,58 @@
+{
+  "uid" : "e597867729bd353c",
+  "name" : "login input is required",
+  "fullName" : "Auth.login input is required",
+  "historyId" : "75997360dfbe67862d8b8aca3a4f5eed",
+  "time" : {
+    "start" : 1619235881990,
+    "stop" : 1619235882848,
+    "duration" : 858
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Required\"\n                Received: \"\"",
+  "statusTrace" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Required\"\n                Received: \"\"\n                    at LoginPage.loginRequiredError (/Users/slider.88.slider/WebstormProject/wdiotests/test/pageobjects/login.page.js:40:53)\n                    at Context.<anonymous> (/Users/slider.88.slider/WebstormProject/wdiotests/test/specs/login.spec.js:34:19)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Auth"
+  }, {
+    "name" : "testClass",
+    "value" : "Auth"
+  }, {
+    "name" : "testMethod",
+    "value" : "login input is required"
+  }, {
+    "name" : "package",
+    "value" : "Auth"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-88.0"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e597867729bd353c.json",
+  "parameterValues" : [ "firefox-88.0" ]
+}

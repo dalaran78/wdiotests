@@ -1,0 +1,56 @@
+{
+  "uid" : "62146a554905cb63",
+  "name" : "submit button is disabled if login and password are absent",
+  "fullName" : "Auth.submit button is disabled if login and password are absent",
+  "historyId" : "66b797504aaa36249fde454ed067a2ad",
+  "time" : {
+    "start" : 1619236461748,
+    "stop" : 1619236462469,
+    "duration" : 721
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Auth"
+  }, {
+    "name" : "testClass",
+    "value" : "Auth"
+  }, {
+    "name" : "testMethod",
+    "value" : "submit button is disabled if login and password are absent"
+  }, {
+    "name" : "package",
+    "value" : "Auth"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-88.0"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "62146a554905cb63.json",
+  "parameterValues" : [ "firefox-88.0" ]
+}

@@ -1,0 +1,98 @@
+{
+  "uid" : "f8815039e2e9289",
+  "name" : "user logs in with valid data",
+  "fullName" : "Auth.user logs in with valid data",
+  "historyId" : "922fa461c2d9c1d1f0e8597e78afa463",
+  "time" : {
+    "start" : 1619274373918,
+    "stop" : 1619274386361,
+    "duration" : 12443
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expect window to have url containing\n                \n                Expected: \"/profile/\"\n                Received: \"https://localcoding.us/user/login\"",
+  "statusTrace" : "Error: Expect window to have url containing\n                \n                Expected: \"/profile/\"\n                Received: \"https://localcoding.us/user/login\"\n                    at ProfilePage.isOpen (/Users/slider.88.slider/WebstormProject/wdiotests/test/pageobjects/portal/profile.portal.page.js:7:21)\n                    at Context.<anonymous> (/Users/slider.88.slider/WebstormProject/wdiotests/test/specs/login.spec.js:17:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expect window to have url containing\n                \n                Expected: \"/profile/\"\n                Received: \"https://localcoding.us/user/login\"",
+    "statusTrace" : "Error: Expect window to have url containing\n                \n                Expected: \"/profile/\"\n                Received: \"https://localcoding.us/user/login\"\n                    at ProfilePage.isOpen (/Users/slider.88.slider/WebstormProject/wdiotests/test/pageobjects/portal/profile.portal.page.js:7:21)\n                    at Context.<anonymous> (/Users/slider.88.slider/WebstormProject/wdiotests/test/specs/login.spec.js:17:21)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2c28212a4d5b3868",
+      "name" : "Screenshot",
+      "source" : "2c28212a4d5b3868.png",
+      "type" : "image/png",
+      "size" : 76155
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Auth"
+  }, {
+    "name" : "testClass",
+    "value" : "Auth"
+  }, {
+    "name" : "testMethod",
+    "value" : "user logs in with valid data"
+  }, {
+    "name" : "package",
+    "value" : "Auth"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-88.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "54ca12534a3358a9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619236458601,
+        "stop" : 1619236461747,
+        "duration" : 3146
+      }
+    }, {
+      "uid" : "d9b0b6d7441bccfb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619235876816,
+        "stop" : 1619235879914,
+        "duration" : 3098
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "f8815039e2e9289.json",
+  "parameterValues" : [ "firefox-88.0" ]
+}

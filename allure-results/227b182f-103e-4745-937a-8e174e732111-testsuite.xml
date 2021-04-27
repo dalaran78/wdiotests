@@ -1,0 +1,109 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1619274373918' stop='1619274389431'>
+    <name>Auth</name>
+    <title>Auth</title>
+    <test-cases>
+        <test-case start='1619274373918' status='failed' stop='1619274386361'>
+            <name>user logs in with valid data</name>
+            <title>user logs in with valid data</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-88.0'/>
+                <parameter kind='argument' name='browser' value='firefox-88.0'/>
+                <parameter kind='argument' name='browser' value='firefox-88.0'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='8fbc7c31-52b7-497a-9ec9-be342054a94d-attachment.png' type='image/png' size='76155'/>
+            </attachments>
+            <failure>
+                <message>Expect window to have url containing
+                
+                Expected: "/profile/"
+                Received: "https://localcoding.us/user/login"</message>
+                <stack-trace>Error: Expect window to have url containing
+                
+                Expected: "/profile/"
+                Received: "https://localcoding.us/user/login"
+                    at ProfilePage.isOpen (/Users/slider.88.slider/WebstormProject/wdiotests/test/pageobjects/portal/profile.portal.page.js:7:21)
+                    at Context.&lt;anonymous> (/Users/slider.88.slider/WebstormProject/wdiotests/test/specs/login.spec.js:17:21)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1619274386361' status='passed' stop='1619274387034'>
+            <name>submit button is disabled if login and password are absent</name>
+            <title>submit button is disabled if login and password are absent</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-88.0'/>
+                <parameter kind='argument' name='browser' value='firefox-88.0'/>
+                <parameter kind='argument' name='browser' value='firefox-88.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1619274387034' status='passed' stop='1619274388579'>
+            <name>fails if invalid data provided</name>
+            <title>fails if invalid data provided</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-88.0'/>
+                <parameter kind='argument' name='browser' value='firefox-88.0'/>
+                <parameter kind='argument' name='browser' value='firefox-88.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1619274388579' status='passed' stop='1619274389431'>
+            <name>login input is required</name>
+            <title>login input is required</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-88.0'/>
+                <parameter kind='argument' name='browser' value='firefox-88.0'/>
+                <parameter kind='argument' name='browser' value='firefox-88.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

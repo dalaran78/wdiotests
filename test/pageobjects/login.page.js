@@ -1,53 +1,44 @@
 import Page from './page';
 
 class LoginPage extends Page {
-    get username () { return $('#normal_login_email'); }
-    get password () { return $('#normal_login_password'); }
-    get btnSubmit () { return $('.login-form-button'); }
+    get inputUsername () { return $('#normal_login_email'); }
+    get inputPassword () { return $('#normal_login_password'); }
+    get buttonSubmit () { return $('.login-form-button'); }
     get errorToast () { return $('.ant-notification-notice-message'); }
-    get alertMessage () { return $('.ant-form-item-explain-error')}
-
+    get loginValidationError () { return $('//div[contains(@class, "ant-form-item-with-help")][.//input[@id="normal_login_email"]]//div[@role="alert"]'); }
 
     open () {
-        return super.open('/');
+        return super.open('/user/login');
     }
 
-    setLogin  (email) {
-        this.username.setValue(email);
+    setLogin (email) {
+        this.inputUsername.setValue(email);
     }
 
-    setPassword(password) {
-        this.password.setValue(password);
+    setPassword (password) {
+        this.inputPassword.setValue(password);
     }
 
-    clickSubmitButton() {
-        this.btnSubmit.click();
+    clickSubmitButton () {
+        this.buttonSubmit.click();
     }
 
-    isDisabled() {
-        expect(this.btnSubmit).toBeDisabled();
+    submitButtonIsDisabled() {
+        expect(this.buttonSubmit).toBeDisabled();
     }
 
     errorToastAppeared() {
         expect(this.errorToast).toBeDisplayed();
     }
 
-    loginClear() {
-        this.Username.clearValue();
+    emptyLoginInput() {
+        this.clearInput(this.inputUsername);
     }
 
-    passClear() {
-        this.Password.clearValue();
-    }
-
-    alert() {
-        expect(this.alertMessage === 'Required');
-    }
-
-    alertEmail() {
-        expect(this.alertMessage === '\'email\' is not a valid email');
+    loginRequiredError() {
+        expect(this.loginValidationError).toBeDisplayed();
+        expect(this.loginValidationError).toHaveText('Required');
     }
 }
 
 export default new LoginPage();
-

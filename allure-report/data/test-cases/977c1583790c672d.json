@@ -1,0 +1,74 @@
+{
+  "uid" : "977c1583790c672d",
+  "name" : "fails if invalid data provided",
+  "fullName" : "Auth.fails if invalid data provided",
+  "historyId" : "e9dd5a47e889775e7edc37a9a277641",
+  "time" : {
+    "start" : 1619274387034,
+    "stop" : 1619274388579,
+    "duration" : 1545
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Auth"
+  }, {
+    "name" : "testClass",
+    "value" : "Auth"
+  }, {
+    "name" : "testMethod",
+    "value" : "fails if invalid data provided"
+  }, {
+    "name" : "package",
+    "value" : "Auth"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-88.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7c89eeabd657b21",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619236462469,
+        "stop" : 1619236463980,
+        "duration" : 1511
+      }
+    }, {
+      "uid" : "5974c945f8a8454a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619235880497,
+        "stop" : 1619235881990,
+        "duration" : 1493
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "977c1583790c672d.json",
+  "parameterValues" : [ "firefox-88.0" ]
+}
